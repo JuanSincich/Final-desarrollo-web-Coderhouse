@@ -11,11 +11,10 @@ html {
   background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),
     url("../img/background.png");
   background-size: cover;
-  /* background-repeat: repeat-y; */
+  background-repeat: repeat-y;
   background-attachment: fixed;
   min-width: 100%;
   height: fit-content;
-  display: grid;
 }
 @media screen and (max-width: 768px) {
   #homebody {
@@ -93,7 +92,6 @@ form {
   margin: 0 auto;
   max-width: 1320px;
   display: grid;
-  justify-content: space-between;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .tienda__card {
