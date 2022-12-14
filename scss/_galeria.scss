@@ -1,0 +1,9 @@
+.galeria {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.img {
+  margin: auto;
+  padding-bottom: 1.5rem;
+}
