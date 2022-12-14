@@ -16,6 +16,8 @@ html {
   background-repeat: repeat-y;
   background-attachment: fixed;
   min-width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -114,6 +116,4 @@ footer {
 .tienda__card:hover {
   transform: scale(1.03);
   transition: all 300ms ease-in-out;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
