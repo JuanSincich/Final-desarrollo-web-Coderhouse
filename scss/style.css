@@ -116,4 +116,15 @@ footer {
 .tienda__card:hover {
   transform: scale(1.03);
   transition: all 300ms ease-in-out;
+}
+
+.galeria {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.img {
+  margin: auto;
+  padding-bottom: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

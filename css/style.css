@@ -118,7 +118,7 @@ footer {
 
 .galeria {
   display: grid;
-  justify-content: space-around;
+  justify-content: space-between;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
