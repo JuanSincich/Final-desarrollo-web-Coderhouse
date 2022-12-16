@@ -1,30 +1,29 @@
 footer {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.45);
   bottom: 0;
   width: 100%;
   margin-top: 2rem;
-}
-.footer-redes {
-  background-color: #363431;
-  color: #f89231;
-  font-size: 100%;
-}
-.inst {
-  padding-right: 1rem;
-}
-.perinst {
   color: #ffffff;
-  font-size: 150%;
-}
-.instagram {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-.copyr {
-  text-align: center;
-  color: #ffffff;
-  font-size: 120%;
-  padding-bottom: 1rem;
+
+  .instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    .imginst {
+      width: 70%;
+    }
+
+    .perinst {
+      color: yellow;
+      font-size: 130%;
+      padding-top: 1rem;
+    }
+  }
+  .copyr {
+    text-align: center;
+    font-size: 100%;
+    padding-bottom: 1rem;
+  }
 }
