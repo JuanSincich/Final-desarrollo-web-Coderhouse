@@ -111,4 +111,19 @@ footer .copyr {
   padding-bottom: 1.5rem;
 }
 
+.cardServ {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1ch;
+  background-color: #ffffff;
+  padding: 0;
+}
+.cardServ .card-text {
+  padding: 1rem;
+}
+.cardServ .card-title {
+  margin: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
