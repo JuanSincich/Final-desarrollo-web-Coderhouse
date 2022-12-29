@@ -119,11 +119,36 @@ footer .copyr {
   background-color: #ffffff;
   padding: 0;
 }
+.cardServ .card-body {
+  padding-bottom: 1rem;
+}
 .cardServ .card-text {
   padding: 1rem;
 }
 .cardServ .card-title {
-  margin: 1rem;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.cardServ .serv-buttom {
+  margin-top: 0.5rem;
+  font-size: 100%;
+  border-radius: 5px;
+  padding: 7px 12px;
+  border: 10px #000000;
+  background-color: #96ec74;
+}
+.cardServ .card-text {
+  margin-bottom: 0rem;
+}
+
+.cont-buttom {
+  position: absolute;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 100%;
+  border-radius: 5px;
+  padding: 7px 12px;
+  border: 10px #000000;
+  background-color: #96ec74;
 }
 
 /*# sourceMappingURL=style.css.map */

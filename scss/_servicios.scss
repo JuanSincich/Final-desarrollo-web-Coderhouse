@@ -1,0 +1,33 @@
+.cardServ {
+  margin-bottom: $margin-card-serv;
+  margin-left: $margin-card-x;
+  margin-right: $margin-card-x;
+  border-radius: 1ch;
+  background-color: $background-color;
+  padding: 0;
+
+  .card-body {
+    padding-bottom: 1rem;
+  }
+
+  .card-text {
+    padding: $pad-card-text;
+  }
+
+  .card-title {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .serv-buttom {
+    margin-top: 0.5rem;
+    font-size: 100%;
+    border-radius: 5px;
+    padding: 7px 12px;
+    border: 10px #000000;
+    background-color: #96ec74;
+  }
+
+  .card-text {
+    margin-bottom: 0rem;
+  }
+}
