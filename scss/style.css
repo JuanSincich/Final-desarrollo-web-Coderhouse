@@ -10,8 +10,9 @@ html {
 }
 
 #homebody {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)), url("../img/background.png");
+  background-image: linear-gradient(rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)), url("../img/background2.jpg");
   background-size: cover;
+  background-position: center;
   /* background-repeat: repeat-y; */
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -34,6 +35,8 @@ html {
 .menu {
   background-color: rgba(0, 0, 0, 0.45);
   font-size: larger;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 footer {
@@ -101,6 +104,11 @@ footer .copyr {
 .tienda__card:hover {
   transform: scale(1.03);
   transition: all 300ms ease-in-out;
+  box-shadow: 5px 5px 20px rgba(1, 0, 0, 0.6);
+}
+
+.parrafo {
+  size: 5rem;
 }
 
 .galeria {
@@ -110,7 +118,14 @@ footer .copyr {
 }
 .galeria .img {
   margin: auto;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.img:hover {
+  transform: scale(1.03);
+  transition: all 300ms ease-in-out;
+  box-shadow: 5px 5px 20px rgba(1, 0, 0, 0.6);
 }
 
 .cardServ {
