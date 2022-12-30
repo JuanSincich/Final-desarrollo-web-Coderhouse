@@ -107,10 +107,6 @@ footer .copyr {
   box-shadow: 5px 5px 20px rgba(1, 0, 0, 0.6);
 }
 
-.parrafo {
-  size: 5rem;
-}
-
 .galeria {
   display: grid;
   justify-content: space-between;
